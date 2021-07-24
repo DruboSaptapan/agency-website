@@ -1,0 +1,24 @@
+/* ----- utilities start----- */
+span{
+    font-size: 65px;
+}
+h1{
+    color: #262626;
+    font-size: 44px;
+}
+p{
+    font-size: 16px;
+}
+/* ----- utilities end----- */
+
+/* ----- header start ----- */
+header{
+    background: rgba(0, 0, 0, .6) url(../images/bg-1.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+/* ----- header end ----- */
