@@ -27,6 +27,9 @@ header{
     background-repeat: no-repeat;
     height: 100vh;
 }
+header p{
+    color: #fff;
+}
 /* ----- header end ----- */
 .counter{
     background: url(../images/bg-2.jpg);
@@ -40,5 +43,7 @@ header{
 }
 .counter span{
     color: #fff;
-    font-size: 12px;
+    font-size: 14px;
+    padding-top: 5px;
+    border-top: 3px solid #CE7A2D;
 }
