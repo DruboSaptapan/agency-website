@@ -8,6 +8,12 @@ h1{
 }
 p{
     font-size: 16px;
+    color: #868FA1;
+}
+.services{
+    padding: 40px;
+    margin: 10px 0;
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.09);
 }
 /* ----- utilities end----- */
 
@@ -22,3 +28,17 @@ header{
     height: 100vh;
 }
 /* ----- header end ----- */
+.counter{
+    background: url(../images/bg-2.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 100px;
+}
+.counter h1{
+    color: #fff;
+}
+.counter span{
+    color: #fff;
+    font-size: 12px;
+}
