@@ -9,6 +9,9 @@ h1{
 p{
     font-size: 16px;
 }
+body, main, footer{
+    overflow-x: hidden;
+}
 /* ----- utilities end----- */
 
 /* ----- header start ----- */
