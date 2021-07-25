@@ -39,7 +39,6 @@ header p{
     padding: 16px;
     margin: 10px 0;
     transition: 0.6s ease-in;
-    overflow: hidden;
 }
 .services .service:hover{
     border: 1px dotted #000;
@@ -84,6 +83,7 @@ header p{
 .portfolio img{
     opacity: 1;
     display: block;
+    min-width: 100%;
     transition: 0.5s ease-in-out;
 }
 .portfolio .project{
@@ -158,6 +158,7 @@ header p{
     color: #141414;
 }
 .team .member img{
+    width: 100%;
     transition: 0.5s ease-in-out;
 }
 .team .member:hover img{
