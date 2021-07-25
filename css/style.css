@@ -9,11 +9,6 @@ h1{
 p{
     font-size: 16px;
 }
-.services{
-    padding: 40px;
-    margin: 10px 0;
-    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.09);
-}
 /* ----- utilities end----- */
 
 /* ----- header start ----- */
@@ -30,6 +25,21 @@ header p{
     color: #fff;
 }
 /* ----- header end ----- */
+
+/* services start */
+.services{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.services .service{
+    padding: 16px;
+    margin: 10px 0;
+    box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.09);
+}
+
+/* services end */
+
+/* counter start */
 .counter{
     background: url(../images/bg-2.jpg);
     background-attachment: fixed;
@@ -46,6 +56,8 @@ header p{
     padding-top: 5px;
     border-top: 3px solid #CE7A2D;
 }
+/* counter end */
+
 /* portfolio start */
 .portfolio{
     margin-top: 100px;
@@ -67,11 +79,11 @@ header p{
 }
 .portfolio .project{
     position: relative;
-    background-color: #ce7a2d;
+    background-color: rgba(205, 122, 45, 0.8);
 }
 .portfolio .project .project-info{
     position: absolute;
-    transition: .5s ease;
+    transition: 0.5s ease;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -79,7 +91,7 @@ header p{
     opacity: 0;
 }
 .portfolio .project:hover img{
-    opacity: 0.3;
+    opacity: 0.6;
 }
 .portfolio .project:hover .project-info{
     opacity: 1;
@@ -96,3 +108,51 @@ header p{
     text-decoration: none;
 }
 /* portfolio end */
+
+/* team start */
+.team{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.team h1{
+    color: #262626;
+    text-align: center;
+}
+.team p{
+    width: 50%;
+    color: #868FA1;
+    text-align: center;
+}
+.member{
+    position: relative;
+    background-color: rgb(206, 123, 45);
+}
+.member .member-social-id{
+    position: absolute;
+    transition: .5s ease;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(50%, 50%);
+    opacity: 0;
+}
+.team .member img{
+    transition: 0.5s ease-in-out;
+}
+.team .member:hover img{
+    opacity: 0.6;
+}
+.team .member:hover .member-social-id{
+    opacity: 1;
+}
+.member-social-id li{
+    margin: 0 15px;
+    list-style-type: none;
+}
+.member-social-id a{
+    color: #000;
+    font-size: 30px;
+    text-decoration: none;
+}
+/* team end */
+
