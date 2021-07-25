@@ -155,9 +155,12 @@ header p{
 }
 .member .member-info h6{
     font-size: 18px;
+    font-weight: 700;
 }
 .member .member-info p{
+    color: #000;
     font-size: 16px;
+    width: 80%;
 }
 .member .member-info{
     position: absolute;
@@ -170,9 +173,6 @@ header p{
 }
 .member-info h6{
     color: #000;
-}
-.member-info p{
-    color: #141414;
 }
 .team .member img{
     width: 100%;
