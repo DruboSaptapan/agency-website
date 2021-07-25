@@ -91,7 +91,7 @@ header p{
     opacity: 0;
 }
 .portfolio .project:hover img{
-    opacity: 0.6;
+    opacity: 0.4;
 }
 .portfolio .project:hover .project-info{
     opacity: 1;
@@ -127,22 +127,34 @@ header p{
     position: relative;
     background-color: rgb(206, 123, 45);
 }
-.member .member-social-id{
+.member .member-info h6{
+    font-size: 18px;
+}
+.member .member-info p{
+    font-size: 16px;
+}
+.member .member-info{
     position: absolute;
     transition: .5s ease;
     top: 90%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(50%, 50%);
+    transform: translate(-50%, -90%);
+    -ms-transform: translate(50%, 90%);
     opacity: 0;
+}
+.member-info h6{
+    color: #000;
+}
+.member-info p{
+    color: #141414;
 }
 .team .member img{
     transition: 0.5s ease-in-out;
 }
 .team .member:hover img{
-    opacity: 0.6;
+    opacity: 0.4;
 }
-.team .member:hover .member-social-id{
+.team .member:hover .member-info{
     opacity: 1;
 }
 .member-social-id li{
@@ -154,5 +166,19 @@ header p{
     font-size: 30px;
     text-decoration: none;
 }
+.fab{
+    transition: 0.3s ease-in;
+}
+.fa-facebook:hover{
+    color: #1778F2;
+}
+.fa-linkedin-in:hover{
+    color: #0e76a8;
+}
+.fa-dribbble:hover{
+    color: #ea4c89;
+}
+.fa-github-alt:hover{
+    color: #211F1F;
+}
 /* team end */
-
