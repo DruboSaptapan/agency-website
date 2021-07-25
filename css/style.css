@@ -36,8 +36,10 @@ header p{
     padding: 16px;
     margin: 10px 0;
     transition: 0.6s ease-in;
+    overflow: hidden;
 }
 .services .service:hover{
+    border: 1px dotted #000;
     transform: scale(1.1);
     box-shadow: 0px 7px 15px rgba(0, 0, 0, 0.09);
 }
